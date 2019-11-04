@@ -8,6 +8,6 @@ def square_array_collect(array)
   array.collect {|num| num * num}
 end
 
-def square_array_collect(array)
+def square_array_inject(array)
   array.collect {|num| num * num}
 end
